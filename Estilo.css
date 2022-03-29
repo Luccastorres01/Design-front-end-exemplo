@@ -1,0 +1,177 @@
+/*FONT UTILIZADA PARA DESENVOLVIMENTO DO TRABALHO*/
+
+@font-face {
+    font-family: 'Lucida Fax';
+    src: url('./Font/LucidaFax.woff2') format('woff2'),
+        url('./Font/LucidaFax.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*FORMATAÇÃO DA IMAGEM DE BACKGROUND DO BODY DA PÁGINA*/
+
+.imagem_fundo {
+	background-color: #436dff;
+	background-image: url(Img_fundo1.jpg) ;
+	background-size: 1500px;
+	background-repeat: no-repeat;
+	background-position: 86% 0px;
+}
+
+/*FORMATAÇÃO DA BOX DE CONTEÚDO*/
+
+.conteúdo {
+	border-color: none;
+	box-shadow: 5px 5px 80px blue;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	background-color: #436dff;
+	background-image: url(Img_fundo2.png) ;
+	background-size: 1200px;
+	background-repeat: no-repeat;
+	background-position: 500px -130px;
+
+}
+
+/*FORMATAÇÃO DO "LOGO"*/
+
+.loguinho {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 80px;
+	margin-top: 60px;	
+	color:white;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+/*FORMATAÇÃO DO MENU*/
+
+.menu {
+	width: 100px;
+	height: 100px;
+	padding: 0px 100px;
+	text-align: right;
+}
+
+/*FORMATAÇÃO DOS OBJETOS (LINKS) DO MENU*/
+
+.bjts_menu {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 670px;
+	color:#436dff;
+	font-size: 15px;
+}
+
+.bjts_menu:hover {
+	text-decoration: underline;
+	transition: 0.5s; 
+}
+
+.bjts_menu1 {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 200px;
+	color:#436dff;
+	font-size: 15px;
+}
+
+.bjts_menu1:hover {
+	text-decoration: underline;
+	transition: 0.5s; 
+}
+
+.bjts_menu2 {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 10px;
+	color:#436dff;
+	font-size: 15px;
+}
+
+.bjts_menu2:hover {
+	text-decoration: underline;
+	transition: 0.5s; 
+}
+
+.bjts_menu3 {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 10px;
+	color:#436dff;
+	font-size: 15px;
+}
+
+.bjts_menu3:hover {
+	text-decoration: underline;
+	transition: 0.5s; 
+}
+
+.bjts_menu4 {
+	font-family: "Lucida Fax";
+	text-decoration: none;
+	margin-left: 10px;
+	color:#436dff;
+	font-size: 15px;
+}
+
+.bjts_menu4:hover {
+	text-decoration: underline;
+	transition: 0.5s; 
+}
+
+/*FORMATAÇÃO DOS CONTEÚDOS ESCRITOS DA PÁGINA*/
+
+.h1 {
+	font-family: "Lucida Fax";
+	color: white;
+	margin-left: 80px;
+}
+
+.p {
+	font-family: "Lucida Fax";
+	color: white;
+	margin-left: 80px;
+}
+
+/*FORMATAÇÃO DOS BOTÕES INFERIORES*/
+
+.botões1 {
+	border-style: solid;
+	border-color: white;
+	border-radius: 50px;
+	padding: 15px;
+	font-family: "Lucida Fax";
+	color: white;
+	background-color: #436dff;
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+
+.botões1:hover {
+	background-color: white;
+	color: #436dff;
+	transition: 0.5s;
+}
+
+.botões2 {
+	border-style: solid;
+	border-color: white;
+	border-radius: 50px;
+	padding: 15px;
+	font-family: "Lucida Fax";
+	color: white;
+	background-color: #436dff;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.botões2:hover {
+	background-color: white;
+	color: #436dff;
+	transition: 0.5s;
+}
